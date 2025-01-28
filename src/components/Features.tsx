@@ -46,7 +46,7 @@ const Features = () => {
 
           <div className="relative aspect-video w-full max-w-3xl mx-auto mb-16 rounded-xl overflow-hidden">
             <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/H-t7IdF7r08"
               title="Recursos da Plataforma"
               className="absolute inset-0 w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

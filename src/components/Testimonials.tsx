@@ -5,24 +5,24 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Maria Silva",
-    role: "Profissional de Negócios",
-    videoId: "dQw4w9WgXcQ",
-    quote: "Esta plataforma transformou minha jornada de aprendizado de idiomas. Agora posso falar três idiomas com confiança!",
+    name: "Felipe",
+    role: "Aluno",
+    videoId: "0E5MqKoD0dA",
+    quote: "Desafio de ser tornar hiperpoliglota em 1 ano.",
   },
   {
     id: 2,
-    name: "João Santos",
-    role: "Engenheiro de Software",
-    videoId: "dQw4w9WgXcQ",
-    quote: "As aulas com IA são incrivelmente eficazes. Aprendi mais em 3 meses do que em anos de aulas tradicionais.",
+    name: "Daniele",
+    role: "Aluna",
+    videoId: "1tjNbqwuAIc",
+    quote: "Conquistou o certificado de proficiência em alemão em 1 mês!",
   },
   {
     id: 3,
-    name: "Ana Oliveira",
-    role: "Blogueira de Viagens",
-    videoId: "dQw4w9WgXcQ",
-    quote: "Poder praticar com falantes nativos fez toda a diferença. Super recomendo!",
+    name: "João",
+    role: "Aluno",
+    videoId: "j7Qz9frfXPw",
+    quote: "Fluência em 2 meses em russo!",
   },
 ];
 

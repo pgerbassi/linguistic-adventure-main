@@ -3,6 +3,14 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
+                 <div 
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: `url("/globe.webp")`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-accent/20 via-primary to-primary" />
       
       <motion.div

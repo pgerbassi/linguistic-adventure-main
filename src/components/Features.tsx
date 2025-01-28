@@ -53,7 +53,7 @@ const Features = () => {
               allowFullScreen
             />
           </div>
-
+          <a href="https://pay.hotmart.com/D96966130K?sck=HOTMART_PRODUCT_PAGE&off=8429n4o8&hotfeature=32&_gl=1*mt8zzm*_gcl_au*Njk1MTEzNjQxLjE3MzgwMDE1OTU.*_ga*MjEwOTUzMjE1MC4xNzM4MDAxNTkw*_ga_GQH2V1F11Q*MTczODAzMTEwMy41LjEuMTczODAzMTQ4OC41OS4wLjA.&bid=1738031491700" target="_blank" rel="noopener noreferrer">
           <button 
             className="relative inline-flex items-center justify-center px-8 py-4 font-bold text-light 
                      bg-highlight rounded-full overflow-hidden group focus:outline-none focus:ring-2 
@@ -65,6 +65,7 @@ const Features = () => {
             Explorar Recursos
             <span className="ml-2">→</span>
           </button>
+          </a>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

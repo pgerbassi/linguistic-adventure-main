@@ -2,45 +2,36 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const plans = [
+
   {
-    name: "Basic",
-    price: "Free",
+    name: "",
+    price: "R$397",
+    period: "À vista!",
     features: [
-      "Access to 5 languages",
-      "Basic exercises",
-      "Progress tracking",
-      "Mobile app access",
+      "Metodologia completa de aprendizado",
+      "Conteúdo estruturado",
+      "Exercícios práticos e planilhas",
+      "Ferramentas de acompanhamento de progresso",
+      "Acesso a todas às atualizações na plataforma",
+      "Garantia de 7 dias",
     ],
-    cta: "Start Free",
-    popular: false,
-  },
-  {
-    name: "Pro",
-    price: "$12",
-    period: "per month",
-    features: [
-      "Access to all languages",
-      "Advanced exercises",
-      "Live tutoring sessions",
-      "Offline mode",
-      "Priority support",
-    ],
-    cta: "Get Pro",
+    cta: "Seja Membro",
     popular: true,
   },
   {
-    name: "Premium",
-    price: "$29",
-    period: "per month",
+    name: "",
+    price: "R$39,71",
+    period: "x 12 no cartão",
     features: [
-      "Everything in Pro",
-      "1-on-1 coaching",
-      "Customized study plan",
-      "Certification prep",
-      "Unlimited practice",
+      "Metodologia completa de aprendizado",
+      "Conteúdo estruturado",
+      "Exercícios práticos e planilhas",
+      "Ferramentas de acompanhamento de progresso",
+      "Acesso a todas às atualizações na plataforma",
+      "Garantia de 7 dias",
     ],
-    cta: "Go Premium",
-    popular: false,
+    cta: "Seja Membro",
+    popular: true,
   },
 ];
 
@@ -56,14 +47,14 @@ const Pricing = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-light mb-4">
-            Choose Your Plan
+            Sistema Completo de Aprendizado de Idiomas
           </h2>
           <p className="text-light/80 max-w-2xl mx-auto">
-            Start your language learning journey today with our flexible plans
+            7 Dias de garatia.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.name}
@@ -79,7 +70,7 @@ const Pricing = () => {
               {plan.popular && (
                 <span className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 
                                bg-highlight text-light text-sm font-medium rounded-full">
-                  Most Popular
+                  Oportunidade!
                 </span>
               )}
 
@@ -107,7 +98,7 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
-
+              <a href="https://pay.hotmart.com/D96966130K?sck=HOTMART_PRODUCT_PAGE&off=8429n4o8&hotfeature=32&_gl=1*mt8zzm*_gcl_au*Njk1MTEzNjQxLjE3MzgwMDE1OTU.*_ga*MjEwOTUzMjE1MC4xNzM4MDAxNTkw*_ga_GQH2V1F11Q*MTczODAzMTEwMy41LjEuMTczODAzMTQ4OC41OS4wLjA.&bid=1738031491700" target="_blank" rel="noopener noreferrer">
               <button
                 className={`w-full py-3 rounded-lg font-medium transition-all duration-300
                           ${plan.popular 
@@ -116,6 +107,7 @@ const Pricing = () => {
               >
                 {plan.cta}
               </button>
+              </a>
             </motion.div>
           ))}
         </div>

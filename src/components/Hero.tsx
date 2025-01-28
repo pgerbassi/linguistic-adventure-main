@@ -40,7 +40,7 @@ const Hero = () => {
           Aprenda qualquer idioma, a qualquer hora, em qualquer lugar—com facilidade e diversão!
           Junte-se a milhares de alunos bem-sucedidos em todo o mundo.
         </motion.p>
-
+        <a href="https://pay.hotmart.com/D96966130K?sck=HOTMART_PRODUCT_PAGE&off=8429n4o8&hotfeature=32&_gl=1*mt8zzm*_gcl_au*Njk1MTEzNjQxLjE3MzgwMDE1OTU.*_ga*MjEwOTUzMjE1MC4xNzM4MDAxNTkw*_ga_GQH2V1F11Q*MTczODAzMTEwMy41LjEuMTczODAzMTQ4OC41OS4wLjA.&bid=1738031491700" target="_blank" rel="noopener noreferrer">
         <motion.button
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -53,6 +53,7 @@ const Hero = () => {
         >
           Comece Sua Jornada
         </motion.button>
+        </a>
       </motion.div>
     </section>
   );
